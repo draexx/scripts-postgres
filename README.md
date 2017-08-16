@@ -1,9 +1,12 @@
 # scripts-postgres
-update_secuence()
-función para postgreSQL que actualiza las secuencias al ultimo indice en las tablas correspondientes de todos los esquemas.
+## update_secuence()
 
-init_functions()
-función inicial donde se declara los nombre sde las funciones y las vistas que deseas que  se clonen en el nuevo esquema, esta función es necesaria para clone_schema()
+Función para postgreSQL que actualiza las secuencias al ultimo indice en las tablas correspondientes de todos los esquemas.
 
-clone_schema()
-función para clonar un esquema especifico a otro nuevo incluyendo datos.
+## init_functions()
+
+Función inicial donde se declara los nombre sde las funciones y las vistas que deseas que  se clonen en el nuevo esquema, esta función es necesaria para clone_schema()
+
+## clone_schema()
+
+Función para clonar un esquema especifico a otro nuevo incluyendo datos.
